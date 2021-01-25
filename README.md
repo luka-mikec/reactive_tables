@@ -1,5 +1,5 @@
 # Reactive Tables
-An experimental browser-based spreadsheet application, with some unusual features.
+An experimental browser-based spreadsheet application, with some unusual features. Based on Vue 3 and uses Vite.
 
 ## Demo
 
@@ -12,7 +12,7 @@ Playing with reactive functions: [table](https://www.youtube.com/watch?v=6iThXbl
 
 - JavaScript enables much more complex formulas than what the standard spreadsheets allow.
 - I always wanted to use Vue.js to build a spreadsheet reactivity engine. This was made possible with Vue 3. I wrote an [article](https://www.toptal.com/vue-js/on-demand-reactivity-vue-3) about this.
-- Vue 3's powerful reactivity engine enables fancy experimental features, such as reactive functions.
+- Vue 3's powerful reactivity engine enables fancy experimental features, such as reactive functions (see above).
 
 ## Features:
  - inputting data and formulas;
@@ -22,7 +22,7 @@ Playing with reactive functions: [table](https://www.youtube.com/watch?v=6iThXbl
     - blocks (`shift` + `arrow key` or `shift` + `left click` or `mouse drag`),
     - multiple cells and/or blocks (`ctrl` + any of the above);
  - spreading content in rows/columns/blocks (inline cell menu);
- - copying and pasting selection (tab-separated columns, interoperable with other tools);
+ - copying and pasting selection (tab-separated cells, interoperable with other tools);
  - value formulas such as `SIN` and `COS`, and range formulas such as `SUM`;
  - reactive functions: define a function with `= MAP(name, function)`, call it somewhere, change the function, the results are updated immediately.
 
